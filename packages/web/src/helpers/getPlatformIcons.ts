@@ -2,13 +2,8 @@ import { FunctionComponent, SVGProps } from 'react';
 import { WindowsIcon, AppleIcon, LinuxIcon, WebIcon } from 'assets/icons';
 import { Platform, Maybe } from 'generated/types';
 
-console.log(WindowsIcon);
-console.log(AppleIcon);
-
 export default (platforms: Maybe<Platform>[]) => {
   const result: FunctionComponent<SVGProps<SVGSVGElement>>[] = [];
-
-  console.log(result);
 
   platforms
     .forEach(platform => {
