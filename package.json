@@ -1,6 +1,10 @@
 {
-  "name": "QilinStore",
+  "name": "qilin-store",
+  "license": "MIT",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.20.2"
   }
