@@ -16,6 +16,10 @@ import { ApolloProvider } from '@apollo/react-hooks';
 
 import client from './apolloClient';
 
+const ui = require('@qilin/store-ui');
+
+ui();
+
 const history = createBrowserHistory();
 
 history.listen(() => {
